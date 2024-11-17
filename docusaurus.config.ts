@@ -61,6 +61,13 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-VVNYWS77XK',
+          anonymizeIP: true,
+        },
+        googleTagManager: {
+          containerId: 'GTM-5QV8ZZFS',
+        },
       } satisfies Preset.Options,
     ],
   ],
